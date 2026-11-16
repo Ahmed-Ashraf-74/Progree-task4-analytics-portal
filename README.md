@@ -2,7 +2,7 @@
 
 A multi-view business intelligence and analytics dashboard built with **React**, **Vite**, **Tailwind CSS**, **React Router**, and **Recharts** as part of the **Progree Remote Internship Program (Task 4)**.
 
-🔗 **Live Demo:** [View Live Dashboard](https://YOUR_VERCEL_LINK_HERE)
+🔗 **Live Demo:** [View Live Dashboard](https://progree-task4-analytics-portal.vercel.app)
 
 ---
 
