@@ -1,0 +1,221 @@
+{
+  "kpis": [
+    {
+      "id": "rev",
+      "label": "Total Revenue",
+      "value": "$692,395",
+      "trend": "+32.5%",
+      "positive": true,
+      "sub": "vs last quarter"
+    },
+    {
+      "id": "ret",
+      "label": "Returning Customer Rate",
+      "value": "42.8%",
+      "trend": "+5.4%",
+      "positive": true,
+      "sub": "vs last quarter"
+    },
+    {
+      "id": "aov",
+      "label": "Average Order Value",
+      "value": "$4,655",
+      "trend": "+12.1%",
+      "positive": true,
+      "sub": "enterprise tier"
+    },
+    {
+      "id": "margin",
+      "label": "Gross Margin",
+      "value": "$248,340",
+      "trend": "-2.4%",
+      "positive": false,
+      "sub": "cloud infra adjustment"
+    }
+  ],
+  "salesTrajectory": {
+    "Month": [
+      { "period": "W1", "revenue": 42000, "expenses": 24000 },
+      { "period": "W2", "revenue": 58000, "expenses": 29000 },
+      { "period": "W3", "revenue": 51000, "expenses": 27000 },
+      { "period": "W4", "revenue": 74000, "expenses": 33000 },
+      { "period": "W5", "revenue": 69000, "expenses": 31000 },
+      { "period": "W6", "revenue": 88000, "expenses": 36000 },
+      { "period": "W7", "revenue": 96500, "expenses": 38000 }
+    ],
+    "Quarter": [
+      { "period": "Jan", "revenue": 145000, "expenses": 78000 },
+      { "period": "Feb", "revenue": 168000, "expenses": 84000 },
+      { "period": "Mar", "revenue": 192000, "expenses": 91000 },
+      { "period": "Apr", "revenue": 187395, "expenses": 89000 }
+    ],
+    "Year": [
+      { "period": "Q1", "revenue": 420000, "expenses": 210000 },
+      { "period": "Q2", "revenue": 510000, "expenses": 245000 },
+      { "period": "Q3", "revenue": 605000, "expenses": 270000 },
+      { "period": "Q4", "revenue": 692395, "expenses": 298000 }
+    ]
+  },
+  "categoryMix": [
+    { "name": "Cloud Suite", "value": 47, "color": "#ff5500" },
+    { "name": "AI Analytics", "value": 25, "color": "#2563eb" },
+    { "name": "Security Mesh", "value": 19, "color": "#8b5cf6" },
+    { "name": "API Gateway", "value": 9, "color": "#10b981" }
+  ],
+  "operationalRadar": [
+    { "metric": "Speed", "current": 92, "target": 80 },
+    { "metric": "Uptime", "current": 98, "target": 95 },
+    { "metric": "Efficiency", "current": 86, "target": 78 },
+    { "metric": "Retention", "current": 84, "target": 75 },
+    { "metric": "Adoption", "current": 89, "target": 82 }
+  ],
+  "regionalDistribution": [
+    {
+      "region": "United States",
+      "flag": "🇺🇸",
+      "accounts": 7937,
+      "revenue": 295000,
+      "color": "#ff5500"
+    },
+    {
+      "region": "United Kingdom",
+      "flag": "🇬🇧",
+      "accounts": 4468,
+      "revenue": 172000,
+      "color": "#8b5cf6"
+    },
+    {
+      "region": "Egypt & MENA",
+      "flag": "🇪🇬",
+      "accounts": 3620,
+      "revenue": 118000,
+      "color": "#10b981"
+    },
+    {
+      "region": "Germany",
+      "flag": "🇩🇪",
+      "accounts": 2197,
+      "revenue": 68395,
+      "color": "#f59e0b"
+    },
+    {
+      "region": "Japan",
+      "flag": "🇯🇵",
+      "accounts": 1410,
+      "revenue": 39000,
+      "color": "#06b6d4"
+    }
+  ],
+  "enterpriseAccounts": [
+    {
+      "id": "ACC-1041",
+      "company": "Nexora Systems",
+      "contact": "Sarah Jenkins",
+      "plan": "Enterprise",
+      "region": "United States",
+      "mrr": 14800,
+      "growth": 18.4,
+      "status": "Active",
+      "lastActive": "2026-11-16"
+    },
+    {
+      "id": "ACC-1042",
+      "company": "Cairo FinTech Hub",
+      "contact": "Omar El-Masry",
+      "plan": "Enterprise",
+      "region": "Egypt & MENA",
+      "mrr": 12400,
+      "growth": 24.1,
+      "status": "Active",
+      "lastActive": "2026-11-17"
+    },
+    {
+      "id": "ACC-1043",
+      "company": "Veloce Cloud UK",
+      "contact": "Liam Carter",
+      "plan": "Pro",
+      "region": "United Kingdom",
+      "mrr": 6900,
+      "growth": 7.2,
+      "status": "Active",
+      "lastActive": "2026-11-15"
+    },
+    {
+      "id": "ACC-1044",
+      "company": "Kobe Robotics",
+      "contact": "Kenji Takahashi",
+      "plan": "Enterprise",
+      "region": "Japan",
+      "mrr": 19200,
+      "growth": 31.0,
+      "status": "Active",
+      "lastActive": "2026-11-17"
+    },
+    {
+      "id": "ACC-1045",
+      "company": "Rheinland Logistics",
+      "contact": "Hannah Weber",
+      "plan": "Pro",
+      "region": "Germany",
+      "mrr": 5400,
+      "growth": -4.5,
+      "status": "At Risk",
+      "lastActive": "2026-11-08"
+    },
+    {
+      "id": "ACC-1046",
+      "company": "Delta Health AI",
+      "contact": "Nourhan Tarek",
+      "plan": "Enterprise",
+      "region": "Egypt & MENA",
+      "mrr": 15600,
+      "growth": 29.3,
+      "status": "Active",
+      "lastActive": "2026-11-16"
+    },
+    {
+      "id": "ACC-1047",
+      "company": "Stratos Media",
+      "contact": "Elena Rostova",
+      "plan": "Starter",
+      "region": "United States",
+      "mrr": 2100,
+      "growth": 4.0,
+      "status": "Pending",
+      "lastActive": "2026-11-12"
+    },
+    {
+      "id": "ACC-1048",
+      "company": "Apex Retail Group",
+      "contact": "Marcus Vance",
+      "plan": "Pro",
+      "region": "United Kingdom",
+      "mrr": 8300,
+      "growth": 11.8,
+      "status": "Active",
+      "lastActive": "2026-11-14"
+    },
+    {
+      "id": "ACC-1049",
+      "company": "Nordic Grid Labs",
+      "contact": "Soren Lindqvist",
+      "plan": "Starter",
+      "region": "Germany",
+      "mrr": 1850,
+      "growth": -8.1,
+      "status": "At Risk",
+      "lastActive": "2026-11-03"
+    },
+    {
+      "id": "ACC-1050",
+      "company": "Horizon BioTech",
+      "contact": "Claire Bennett",
+      "plan": "Enterprise",
+      "region": "United States",
+      "mrr": 22500,
+      "growth": 36.7,
+      "status": "Active",
+      "lastActive": "2026-11-17"
+    }
+  ]
+}
