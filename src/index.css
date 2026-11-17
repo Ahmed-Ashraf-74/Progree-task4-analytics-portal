@@ -1,8 +1,7 @@
 @import "tailwindcss";
-
 @custom-variant dark (&:where(.dark, .dark *));
-
 @layer base {
+  html,
   body {
     font-family:
       "Plus Jakarta Sans",
@@ -10,6 +9,8 @@
       BlinkMacSystemFont,
       sans-serif;
     overflow-x: hidden;
+    max-width: 100vw;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 
@@ -18,7 +19,17 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* Staggered Card Entrance Animation (Inspired by Lightweigh & OptiFlow) */
+/* Hide scrollbars cleanly where horizontal swipe is intentional */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @keyframes cardEnter {
   from {
     opacity: 0;
@@ -37,15 +48,19 @@
 .delay-1 {
   animation-delay: 0.05s;
 }
+
 .delay-2 {
   animation-delay: 0.1s;
 }
+
 .delay-3 {
   animation-delay: 0.15s;
 }
+
 .delay-4 {
   animation-delay: 0.2s;
 }
+
 .delay-5 {
   animation-delay: 0.25s;
 }

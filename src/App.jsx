@@ -39,7 +39,7 @@ export default function App() {
 
         <footer className="max-w-7xl w-full mx-auto px-4 sm:px-6 py-5 border-t border-slate-200/80 dark:border-white/10 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
           <span>
-            SCALIX Enterprise Analytics Portal - Progree Internship Task 4
+            NEXORA Enterprise Analytics Portal - Progree Internship Task 4
           </span>
           <span>Engineered by Ahmed Ashraf</span>
         </footer>
